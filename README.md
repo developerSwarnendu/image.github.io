@@ -3,7 +3,7 @@
     <head>
         <title>Stopwatch</title>
         <style>
-            #body-div{
+            body{
                 background-color: darkslateblue;
                 display: flex;
                 justify-content: center;
@@ -58,22 +58,19 @@
         </style>
     </head>
     <body>
-        <div id="body-div">
-            <div id="container">
-                <span class="number" id="hr">00</span>
-                <span class="txt" id="hr-txt">Hr</span>
-                <span class="number" id="min">00</span>
-                <span class="txt" id="min-txt">Min</span>
-                <span class="number" id="sec">00</span>
-                <span class="txt" id="sec-txt">Sec</span>
-                <span class="number" id="count">00</span>
-                <div id="buttons">
-                    <button class="btn" id="start" onclick="myStart()">Start</button>
-                    <button class="btn" id="stop" onclick="myStop()">Stop</button>
-                    <button class="btn" id="reset" onclick="myReset()">Reset</button>
-                </div>
+        <div id="container">
+            <span class="number" id="hr">00</span>
+            <span class="txt" id="hr-txt">Hr</span>
+            <span class="number" id="min">00</span>
+            <span class="txt" id="min-txt">Min</span>
+            <span class="number" id="sec">00</span>
+            <span class="txt" id="sec-txt">Sec</span>
+            <span class="number" id="count">00</span>
+            <div id="buttons">
+                <button class="btn" id="start" onclick="myStart()">Start</button>
+                <button class="btn" id="stop" onclick="myStop()">Stop</button>
+                <button class="btn" id="reset" onclick="myReset()">Reset</button>
             </div>
-            
         </div>
         <script>
             let hr=0;
