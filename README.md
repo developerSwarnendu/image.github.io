@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Stopwatch</title>
@@ -50,6 +49,9 @@
                 background-color: #659DBD;
                 color: white;
                 border: 0px;
+            }
+            .container-lg{
+                display: hidden !important;
             }
         </style>
     </head>
